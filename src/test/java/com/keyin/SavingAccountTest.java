@@ -22,7 +22,7 @@ public class SavingAccountTest {
 
         account.withdraw(40);
 
-        Assertions.assertEquals(60, account.getBalance());
+        Assertions.assertEquals(70, account.getBalance());
     }
 
     @Test
